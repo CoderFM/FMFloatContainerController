@@ -1,0 +1,6 @@
+framework module FMFloatContainerController {
+  umbrella header "FMFloatContainerController-umbrella.h"
+
+  export *
+  module * { export * }
+}

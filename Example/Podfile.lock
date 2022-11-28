@@ -1,0 +1,16 @@
+PODS:
+  - FMFloatContainerController (0.1.0)
+
+DEPENDENCIES:
+  - FMFloatContainerController (from `../`)
+
+EXTERNAL SOURCES:
+  FMFloatContainerController:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FMFloatContainerController: 8ddd9270cf837091f2c599c81a91844482011139
+
+PODFILE CHECKSUM: 5bc2a43caf26e679c80b8d27ef4a229110488902
+
+COCOAPODS: 1.11.3

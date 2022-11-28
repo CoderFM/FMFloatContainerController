@@ -1,0 +1,6 @@
+framework module Pods_FMFloatContainerController_Example {
+  umbrella header "Pods-FMFloatContainerController_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

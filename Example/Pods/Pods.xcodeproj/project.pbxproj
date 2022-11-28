@@ -1,0 +1,803 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		553A151D8E1362C33CCFA314C5338B1C /* FMFloatContainerController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 76F3DA27688CA2BD1B1E3B9EE15F01C7 /* FMFloatContainerController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		554A9C676C2FED71E939ADEE8C837F45 /* Pods-FMFloatContainerController_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 189107A724EEB017100BFEE259CF7032 /* Pods-FMFloatContainerController_Tests-dummy.m */; };
+		59BDC7DC391FDB8997820BEF52DBF912 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		73A3D5221EDFCB00DEDF71995968A833 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		793296B24217A722097A4BD791A41D60 /* Pods-FMFloatContainerController_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EFE32FC15A0658547450B812B3091159 /* Pods-FMFloatContainerController_Example-dummy.m */; };
+		81BE489D29348C07003C99DC /* FMFloatContainerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 81BE489B29348C07003C99DC /* FMFloatContainerController.m */; };
+		81BE489E29348C07003C99DC /* FMFloatContainerController.h in Headers */ = {isa = PBXBuildFile; fileRef = 81BE489C29348C07003C99DC /* FMFloatContainerController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		81BE48A929348C9F003C99DC /* FMFloatShowBaseConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 81BE48A729348C9F003C99DC /* FMFloatShowBaseConfig.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		81BE48AA29348C9F003C99DC /* FMFloatShowBaseConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 81BE48A829348C9F003C99DC /* FMFloatShowBaseConfig.m */; };
+		81BE48AD29348D31003C99DC /* FMFloatShowTranslateConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 81BE48AB29348D31003C99DC /* FMFloatShowTranslateConfig.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		81BE48AE29348D31003C99DC /* FMFloatShowTranslateConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 81BE48AC29348D31003C99DC /* FMFloatShowTranslateConfig.m */; };
+		81BE48B1293494C0003C99DC /* FMFloatShowScaleConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 81BE48AF293494C0003C99DC /* FMFloatShowScaleConfig.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		81BE48B2293494C0003C99DC /* FMFloatShowScaleConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 81BE48B0293494C0003C99DC /* FMFloatShowScaleConfig.m */; };
+		BB85661BB699587916D679DE5C247D17 /* Pods-FMFloatContainerController_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A33C139EBEA7AB475E4A5FD0B3BA9D2E /* Pods-FMFloatContainerController_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E8759421F196BB719D2B5F1C35653448 /* FMFloatContainerController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B5BCBDD1208D235F9F15B85980C8FD8 /* FMFloatContainerController-dummy.m */; };
+		EDFB8DFE175B4E937FEA6394922B13A5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		F8DB08331F58A61563ED20D6314B6446 /* Pods-FMFloatContainerController_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 97B257D0FFAD8CDC5D87C6B47C03313E /* Pods-FMFloatContainerController_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4610409BF10A67409BB45E572EB9C422 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D92DD83D0BA9190A994EB06A20D0EC74;
+			remoteInfo = "Pods-FMFloatContainerController_Example";
+		};
+		C393741FEE9BBE6211FFED36A1EBA081 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 346AD5BA3C90ACCDC48254DDE04FB77D;
+			remoteInfo = FMFloatContainerController;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		009FDDFCEAC3ACF70AF14484CE5AC073 /* Pods-FMFloatContainerController_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FMFloatContainerController_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		0B58114B68436262DA812C7E87319E84 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		0B5BCBDD1208D235F9F15B85980C8FD8 /* FMFloatContainerController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FMFloatContainerController-dummy.m"; sourceTree = "<group>"; };
+		1800BBE12C5C00FA0A31FC1ED4FB77E0 /* Pods-FMFloatContainerController_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FMFloatContainerController_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		189107A724EEB017100BFEE259CF7032 /* Pods-FMFloatContainerController_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FMFloatContainerController_Tests-dummy.m"; sourceTree = "<group>"; };
+		1AAC9796C05C00E475AE878156076430 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		1E21DC562AF8593A5BABAAFA519D4C1A /* Pods-FMFloatContainerController_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FMFloatContainerController_Example-Info.plist"; sourceTree = "<group>"; };
+		223FB103631A8333E1F1AC94680828A8 /* Pods-FMFloatContainerController_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FMFloatContainerController_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		2F5C9EB8CF9645A9BD035BC7443C7A10 /* Pods-FMFloatContainerController_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-FMFloatContainerController_Tests"; path = Pods_FMFloatContainerController_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		34F1B71C94D785591EB4ED0362272336 /* FMFloatContainerController.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FMFloatContainerController.debug.xcconfig; sourceTree = "<group>"; };
+		3BD8CA662FF25D93F0971D41B1A7D673 /* Pods-FMFloatContainerController_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FMFloatContainerController_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		4079751CE7359FBE3ACF23F7AD89D496 /* Pods-FMFloatContainerController_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FMFloatContainerController_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		4309F13921E836DB6CA21B3385608F93 /* Pods-FMFloatContainerController_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FMFloatContainerController_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		4D8E4343651960DBDE55C9B622FBE81A /* Pods-FMFloatContainerController_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FMFloatContainerController_Tests-Info.plist"; sourceTree = "<group>"; };
+		6363725761807C2B60EE054C83613924 /* Pods-FMFloatContainerController_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-FMFloatContainerController_Example"; path = Pods_FMFloatContainerController_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6410E98D7BEAACFC498C8E38121421FD /* FMFloatContainerController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FMFloatContainerController.modulemap; sourceTree = "<group>"; };
+		6E14831FB6834C3D0EB5C76054904DC2 /* Pods-FMFloatContainerController_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FMFloatContainerController_Example.modulemap"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		757BA4261278C7301B0F78F979C2CA94 /* Pods-FMFloatContainerController_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FMFloatContainerController_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		76F3DA27688CA2BD1B1E3B9EE15F01C7 /* FMFloatContainerController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FMFloatContainerController-umbrella.h"; sourceTree = "<group>"; };
+		81BE489B29348C07003C99DC /* FMFloatContainerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FMFloatContainerController.m; path = FMFloatContainerController/Classes/FMFloatContainerController.m; sourceTree = "<group>"; };
+		81BE489C29348C07003C99DC /* FMFloatContainerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FMFloatContainerController.h; path = FMFloatContainerController/Classes/FMFloatContainerController.h; sourceTree = "<group>"; };
+		81BE48A729348C9F003C99DC /* FMFloatShowBaseConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = FMFloatShowBaseConfig.h; path = FMFloatContainerController/Classes/FMFloatShowBaseConfig.h; sourceTree = "<group>"; };
+		81BE48A829348C9F003C99DC /* FMFloatShowBaseConfig.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = FMFloatShowBaseConfig.m; path = FMFloatContainerController/Classes/FMFloatShowBaseConfig.m; sourceTree = "<group>"; };
+		81BE48AB29348D31003C99DC /* FMFloatShowTranslateConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = FMFloatShowTranslateConfig.h; path = FMFloatContainerController/Classes/FMFloatShowTranslateConfig.h; sourceTree = "<group>"; };
+		81BE48AC29348D31003C99DC /* FMFloatShowTranslateConfig.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = FMFloatShowTranslateConfig.m; path = FMFloatContainerController/Classes/FMFloatShowTranslateConfig.m; sourceTree = "<group>"; };
+		81BE48AF293494C0003C99DC /* FMFloatShowScaleConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = FMFloatShowScaleConfig.h; path = FMFloatContainerController/Classes/FMFloatShowScaleConfig.h; sourceTree = "<group>"; };
+		81BE48B0293494C0003C99DC /* FMFloatShowScaleConfig.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = FMFloatShowScaleConfig.m; path = FMFloatContainerController/Classes/FMFloatShowScaleConfig.m; sourceTree = "<group>"; };
+		82C383AF9AC2590EF1C5BF901880F9CE /* Pods-FMFloatContainerController_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FMFloatContainerController_Example-frameworks.sh"; sourceTree = "<group>"; };
+		88823BC7D800E307BBCE26D7435066A8 /* Pods-FMFloatContainerController_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FMFloatContainerController_Tests.modulemap"; sourceTree = "<group>"; };
+		9670CC0CCE87A48671F2CDBEC7C03CA2 /* FMFloatContainerController.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = FMFloatContainerController.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		97B257D0FFAD8CDC5D87C6B47C03313E /* Pods-FMFloatContainerController_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FMFloatContainerController_Example-umbrella.h"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A33C139EBEA7AB475E4A5FD0B3BA9D2E /* Pods-FMFloatContainerController_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FMFloatContainerController_Tests-umbrella.h"; sourceTree = "<group>"; };
+		A4D1BA362C946B4D205AC4B656F9C7E6 /* FMFloatContainerController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FMFloatContainerController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A8546CE36F21D81BB3505CD088ED9B3F /* FMFloatContainerController-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FMFloatContainerController-Info.plist"; sourceTree = "<group>"; };
+		AB5E6C2E4878D4313211464F050807B6 /* FMFloatContainerController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FMFloatContainerController-prefix.pch"; sourceTree = "<group>"; };
+		BF62E17A2A628D6F7A78D18E55CB30D5 /* FMFloatContainerController.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FMFloatContainerController.release.xcconfig; sourceTree = "<group>"; };
+		E2571CB4105CFA85790FB7EFA5E3BC3D /* Pods-FMFloatContainerController_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FMFloatContainerController_Example.release.xcconfig"; sourceTree = "<group>"; };
+		EFE32FC15A0658547450B812B3091159 /* Pods-FMFloatContainerController_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FMFloatContainerController_Example-dummy.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		091D7E46E0E26B8ACC7473F39EDB5ED7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				73A3D5221EDFCB00DEDF71995968A833 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33F79231DA71F41591EC600BADC877CD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDFB8DFE175B4E937FEA6394922B13A5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91250FF68373D450F706D208755AF2EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59BDC7DC391FDB8997820BEF52DBF912 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		03C7357F463231A6DEC1222E4277A060 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				9670CC0CCE87A48671F2CDBEC7C03CA2 /* FMFloatContainerController.podspec */,
+				1AAC9796C05C00E475AE878156076430 /* LICENSE */,
+				0B58114B68436262DA812C7E87319E84 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		0A078BF6C98CABC99EADB8BB742583B9 /* Pods-FMFloatContainerController_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				88823BC7D800E307BBCE26D7435066A8 /* Pods-FMFloatContainerController_Tests.modulemap */,
+				4079751CE7359FBE3ACF23F7AD89D496 /* Pods-FMFloatContainerController_Tests-acknowledgements.markdown */,
+				1800BBE12C5C00FA0A31FC1ED4FB77E0 /* Pods-FMFloatContainerController_Tests-acknowledgements.plist */,
+				189107A724EEB017100BFEE259CF7032 /* Pods-FMFloatContainerController_Tests-dummy.m */,
+				4D8E4343651960DBDE55C9B622FBE81A /* Pods-FMFloatContainerController_Tests-Info.plist */,
+				A33C139EBEA7AB475E4A5FD0B3BA9D2E /* Pods-FMFloatContainerController_Tests-umbrella.h */,
+				3BD8CA662FF25D93F0971D41B1A7D673 /* Pods-FMFloatContainerController_Tests.debug.xcconfig */,
+				757BA4261278C7301B0F78F979C2CA94 /* Pods-FMFloatContainerController_Tests.release.xcconfig */,
+			);
+			name = "Pods-FMFloatContainerController_Tests";
+			path = "Target Support Files/Pods-FMFloatContainerController_Tests";
+			sourceTree = "<group>";
+		};
+		0BD1AB0AB9544B73D4ECAD227C82A1D6 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				11D5C7E0F9ACE6596396A8FB3ADEF4D5 /* FMFloatContainerController */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		11D5C7E0F9ACE6596396A8FB3ADEF4D5 /* FMFloatContainerController */ = {
+			isa = PBXGroup;
+			children = (
+				81BE489C29348C07003C99DC /* FMFloatContainerController.h */,
+				81BE489B29348C07003C99DC /* FMFloatContainerController.m */,
+				81BE48A729348C9F003C99DC /* FMFloatShowBaseConfig.h */,
+				81BE48A829348C9F003C99DC /* FMFloatShowBaseConfig.m */,
+				81BE48AB29348D31003C99DC /* FMFloatShowTranslateConfig.h */,
+				81BE48AC29348D31003C99DC /* FMFloatShowTranslateConfig.m */,
+				81BE48AF293494C0003C99DC /* FMFloatShowScaleConfig.h */,
+				81BE48B0293494C0003C99DC /* FMFloatShowScaleConfig.m */,
+				03C7357F463231A6DEC1222E4277A060 /* Pod */,
+				F17F1DB729D28808B850A411AF636CCF /* Support Files */,
+			);
+			name = FMFloatContainerController;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		225DFFDDDFC3F31CEDE56D4E65E618EC /* Pods-FMFloatContainerController_Example */ = {
+			isa = PBXGroup;
+			children = (
+				6E14831FB6834C3D0EB5C76054904DC2 /* Pods-FMFloatContainerController_Example.modulemap */,
+				4309F13921E836DB6CA21B3385608F93 /* Pods-FMFloatContainerController_Example-acknowledgements.markdown */,
+				223FB103631A8333E1F1AC94680828A8 /* Pods-FMFloatContainerController_Example-acknowledgements.plist */,
+				EFE32FC15A0658547450B812B3091159 /* Pods-FMFloatContainerController_Example-dummy.m */,
+				82C383AF9AC2590EF1C5BF901880F9CE /* Pods-FMFloatContainerController_Example-frameworks.sh */,
+				1E21DC562AF8593A5BABAAFA519D4C1A /* Pods-FMFloatContainerController_Example-Info.plist */,
+				97B257D0FFAD8CDC5D87C6B47C03313E /* Pods-FMFloatContainerController_Example-umbrella.h */,
+				009FDDFCEAC3ACF70AF14484CE5AC073 /* Pods-FMFloatContainerController_Example.debug.xcconfig */,
+				E2571CB4105CFA85790FB7EFA5E3BC3D /* Pods-FMFloatContainerController_Example.release.xcconfig */,
+			);
+			name = "Pods-FMFloatContainerController_Example";
+			path = "Target Support Files/Pods-FMFloatContainerController_Example";
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		B0EA4D9C66257CEEFBE3D4839D02F3D1 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				225DFFDDDFC3F31CEDE56D4E65E618EC /* Pods-FMFloatContainerController_Example */,
+				0A078BF6C98CABC99EADB8BB742583B9 /* Pods-FMFloatContainerController_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				0BD1AB0AB9544B73D4ECAD227C82A1D6 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				F97B479760EB18BAD919597152C4C4F0 /* Products */,
+				B0EA4D9C66257CEEFBE3D4839D02F3D1 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F17F1DB729D28808B850A411AF636CCF /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6410E98D7BEAACFC498C8E38121421FD /* FMFloatContainerController.modulemap */,
+				0B5BCBDD1208D235F9F15B85980C8FD8 /* FMFloatContainerController-dummy.m */,
+				A8546CE36F21D81BB3505CD088ED9B3F /* FMFloatContainerController-Info.plist */,
+				AB5E6C2E4878D4313211464F050807B6 /* FMFloatContainerController-prefix.pch */,
+				76F3DA27688CA2BD1B1E3B9EE15F01C7 /* FMFloatContainerController-umbrella.h */,
+				34F1B71C94D785591EB4ED0362272336 /* FMFloatContainerController.debug.xcconfig */,
+				BF62E17A2A628D6F7A78D18E55CB30D5 /* FMFloatContainerController.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/FMFloatContainerController";
+			sourceTree = "<group>";
+		};
+		F97B479760EB18BAD919597152C4C4F0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A4D1BA362C946B4D205AC4B656F9C7E6 /* FMFloatContainerController.framework */,
+				6363725761807C2B60EE054C83613924 /* Pods-FMFloatContainerController_Example */,
+				2F5C9EB8CF9645A9BD035BC7443C7A10 /* Pods-FMFloatContainerController_Tests */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		224B9CF6E7A78320E6B4B5696F4E910C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81BE48AD29348D31003C99DC /* FMFloatShowTranslateConfig.h in Headers */,
+				81BE489E29348C07003C99DC /* FMFloatContainerController.h in Headers */,
+				553A151D8E1362C33CCFA314C5338B1C /* FMFloatContainerController-umbrella.h in Headers */,
+				81BE48B1293494C0003C99DC /* FMFloatShowScaleConfig.h in Headers */,
+				81BE48A929348C9F003C99DC /* FMFloatShowBaseConfig.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A7AADAD8D1FB919CE8C08FB26639684 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB85661BB699587916D679DE5C247D17 /* Pods-FMFloatContainerController_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF9D5427BB3289691174DA2789C0C11F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8DB08331F58A61563ED20D6314B6446 /* Pods-FMFloatContainerController_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		346AD5BA3C90ACCDC48254DDE04FB77D /* FMFloatContainerController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22798DBC933785D1AAD9F253E8E76666 /* Build configuration list for PBXNativeTarget "FMFloatContainerController" */;
+			buildPhases = (
+				224B9CF6E7A78320E6B4B5696F4E910C /* Headers */,
+				A86A8689F49ACEB80273FEF58B1E946A /* Sources */,
+				91250FF68373D450F706D208755AF2EA /* Frameworks */,
+				4C545EE25CA5E3237D16227C6F9B3B92 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FMFloatContainerController;
+			productName = FMFloatContainerController;
+			productReference = A4D1BA362C946B4D205AC4B656F9C7E6 /* FMFloatContainerController.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		75AD9E4E049C41C1DDBB71AE81A4524C /* Pods-FMFloatContainerController_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB7FF621C3054525059D4D7AE9EA38D9 /* Build configuration list for PBXNativeTarget "Pods-FMFloatContainerController_Tests" */;
+			buildPhases = (
+				3A7AADAD8D1FB919CE8C08FB26639684 /* Headers */,
+				99814A14B912173D62C9A75121BC3171 /* Sources */,
+				33F79231DA71F41591EC600BADC877CD /* Frameworks */,
+				6404B35F4BFEDBDFDFDA61614A2A0B8B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				406F2F9DB530F6DB703A9A8570A1C109 /* PBXTargetDependency */,
+			);
+			name = "Pods-FMFloatContainerController_Tests";
+			productName = Pods_FMFloatContainerController_Tests;
+			productReference = 2F5C9EB8CF9645A9BD035BC7443C7A10 /* Pods-FMFloatContainerController_Tests */;
+			productType = "com.apple.product-type.framework";
+		};
+		D92DD83D0BA9190A994EB06A20D0EC74 /* Pods-FMFloatContainerController_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 96F6B606BF409CABB58A87413D66D417 /* Build configuration list for PBXNativeTarget "Pods-FMFloatContainerController_Example" */;
+			buildPhases = (
+				DF9D5427BB3289691174DA2789C0C11F /* Headers */,
+				15C109E7FF7E0594E0C4E9BEE3150272 /* Sources */,
+				091D7E46E0E26B8ACC7473F39EDB5ED7 /* Frameworks */,
+				5821BD59473D74A48583F96AAD23A3EC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ACA19A03C33691A66C1DA38D9EE64B62 /* PBXTargetDependency */,
+			);
+			name = "Pods-FMFloatContainerController_Example";
+			productName = Pods_FMFloatContainerController_Example;
+			productReference = 6363725761807C2B60EE054C83613924 /* Pods-FMFloatContainerController_Example */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = F97B479760EB18BAD919597152C4C4F0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				346AD5BA3C90ACCDC48254DDE04FB77D /* FMFloatContainerController */,
+				D92DD83D0BA9190A994EB06A20D0EC74 /* Pods-FMFloatContainerController_Example */,
+				75AD9E4E049C41C1DDBB71AE81A4524C /* Pods-FMFloatContainerController_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4C545EE25CA5E3237D16227C6F9B3B92 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5821BD59473D74A48583F96AAD23A3EC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6404B35F4BFEDBDFDFDA61614A2A0B8B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		15C109E7FF7E0594E0C4E9BEE3150272 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				793296B24217A722097A4BD791A41D60 /* Pods-FMFloatContainerController_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99814A14B912173D62C9A75121BC3171 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				554A9C676C2FED71E939ADEE8C837F45 /* Pods-FMFloatContainerController_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A86A8689F49ACEB80273FEF58B1E946A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E8759421F196BB719D2B5F1C35653448 /* FMFloatContainerController-dummy.m in Sources */,
+				81BE48AE29348D31003C99DC /* FMFloatShowTranslateConfig.m in Sources */,
+				81BE48B2293494C0003C99DC /* FMFloatShowScaleConfig.m in Sources */,
+				81BE489D29348C07003C99DC /* FMFloatContainerController.m in Sources */,
+				81BE48AA29348C9F003C99DC /* FMFloatShowBaseConfig.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		406F2F9DB530F6DB703A9A8570A1C109 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-FMFloatContainerController_Example";
+			target = D92DD83D0BA9190A994EB06A20D0EC74 /* Pods-FMFloatContainerController_Example */;
+			targetProxy = 4610409BF10A67409BB45E572EB9C422 /* PBXContainerItemProxy */;
+		};
+		ACA19A03C33691A66C1DA38D9EE64B62 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FMFloatContainerController;
+			target = 346AD5BA3C90ACCDC48254DDE04FB77D /* FMFloatContainerController */;
+			targetProxy = C393741FEE9BBE6211FFED36A1EBA081 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0FC63DFEB2B190E825AB711A497E18F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BF62E17A2A628D6F7A78D18E55CB30D5 /* FMFloatContainerController.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FMFloatContainerController/FMFloatContainerController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FMFloatContainerController/FMFloatContainerController-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FMFloatContainerController/FMFloatContainerController.modulemap";
+				PRODUCT_MODULE_NAME = FMFloatContainerController;
+				PRODUCT_NAME = FMFloatContainerController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		21F72C4AC1CD1F1466ED12F72A4E9EE1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 009FDDFCEAC3ACF70AF14484CE5AC073 /* Pods-FMFloatContainerController_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FMFloatContainerController_Example/Pods-FMFloatContainerController_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FMFloatContainerController_Example/Pods-FMFloatContainerController_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7EE7A78859F657F6BEFC651185B43192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		A0777E8E78876EE2563137FCC7B477D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E2571CB4105CFA85790FB7EFA5E3BC3D /* Pods-FMFloatContainerController_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FMFloatContainerController_Example/Pods-FMFloatContainerController_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FMFloatContainerController_Example/Pods-FMFloatContainerController_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B9D0462F54DAB40331B5273021B4B19F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 34F1B71C94D785591EB4ED0362272336 /* FMFloatContainerController.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FMFloatContainerController/FMFloatContainerController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FMFloatContainerController/FMFloatContainerController-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FMFloatContainerController/FMFloatContainerController.modulemap";
+				PRODUCT_MODULE_NAME = FMFloatContainerController;
+				PRODUCT_NAME = FMFloatContainerController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D299434AB35E7FD6F7921C8EF24742FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		E24E3A57DECDD26ACB561DD0A71EBFDF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 757BA4261278C7301B0F78F979C2CA94 /* Pods-FMFloatContainerController_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FMFloatContainerController_Tests/Pods-FMFloatContainerController_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FMFloatContainerController_Tests/Pods-FMFloatContainerController_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E3E7D2900514D93F8B974A8E3F3A8C00 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3BD8CA662FF25D93F0971D41B1A7D673 /* Pods-FMFloatContainerController_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FMFloatContainerController_Tests/Pods-FMFloatContainerController_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FMFloatContainerController_Tests/Pods-FMFloatContainerController_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		22798DBC933785D1AAD9F253E8E76666 /* Build configuration list for PBXNativeTarget "FMFloatContainerController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B9D0462F54DAB40331B5273021B4B19F /* Debug */,
+				0FC63DFEB2B190E825AB711A497E18F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D299434AB35E7FD6F7921C8EF24742FF /* Debug */,
+				7EE7A78859F657F6BEFC651185B43192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		96F6B606BF409CABB58A87413D66D417 /* Build configuration list for PBXNativeTarget "Pods-FMFloatContainerController_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				21F72C4AC1CD1F1466ED12F72A4E9EE1 /* Debug */,
+				A0777E8E78876EE2563137FCC7B477D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BB7FF621C3054525059D4D7AE9EA38D9 /* Build configuration list for PBXNativeTarget "Pods-FMFloatContainerController_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E3E7D2900514D93F8B974A8E3F3A8C00 /* Debug */,
+				E24E3A57DECDD26ACB561DD0A71EBFDF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
