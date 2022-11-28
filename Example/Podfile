@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'FMFloatContainerController_Example' do
+  pod 'FMFloatContainerController', :path => '../'
+
+  target 'FMFloatContainerController_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
